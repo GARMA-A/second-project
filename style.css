@@ -1,0 +1,296 @@
+.container {
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  .container .btn {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #5a6d6d;
+    color: rgb(43, 20, 20);
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .btn:hover {
+    background-color: rgb(211, 115, 174);
+  }
+ 
+/*the first bage end here */
+
+body {background-color: rgba(102, 187, 236, 0.658);}
+
+div.image{
+   
+        position: fixed;
+        bottom: 400px;
+        left: 100px;
+        width: auto;
+        
+      }
+div.image2{
+    position: fixed;
+        bottom: 320px;
+        right: 1px;
+        width: 300px
+}
+div.image3{
+    position: fixed;
+    bottom: 2px;
+    right: 1px;
+    width: 300px
+}
+
+div.image4{
+    position: fixed;
+    bottom: 2px;
+    right: 1100px;
+    width: 300px
+}
+
+* {box-sizing: content-box;}
+.dot {
+    cursor: pointer;
+    border-bottom-right-radius: 100px;
+    margin-top:100px ;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #380707;
+    border-radius: 100px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none ;
+}
+
+
+
+
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+div.texto{
+
+    color: #380707;
+   text-align: center; 
+   background-color: #6689eb7c;
+    
+
+}
+div.insta{
+    margin-top: 500px;
+    margin-left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.link{
+    margin-top: -80px;
+    margin-left: 500px;
+}
+div.face{
+    margin-top: -80px;
+   margin-left: 650px;
+}
+div.conta{
+  text-align: center;
+  
+  left: 80px;
+  bottom: 30px; ;
+    margin-left: -110px;
+    margin-top: -200px;
+    color: rgb(58, 39, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6689eb7c
+}
+
+div.image5 {
+    padding-left: 40px;
+    margin: 400px;
+    width: 40%;
+    background-color: rgba(39, 56, 20, 0.767);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  img {width: 100%}
+
+div.image5 {
+    color: rgba(0, 0, 0, 0.719);
+  text-align: center;
+  padding: 10px 20px;
+}
+.s{
+  position: fixed;
+        bottom: 450px;
+        left: 1150px;
+        width: 200px;
+        height: 200px;
+}
+.c{
+  position: fixed;
+        bottom: 450px;
+        left: 10px;
+        width: 200px;
+        height: 200px;
+}
+
+.hacker {
+  padding:  20px 40px;
+  margin-top: 40px;
+  margin-left: 400px;
+  width: 30%;
+  background-color: rgba(39, 56, 20, 0.767);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+}
+.T{
+  text-align: center;
+  color: rgba(201, 235, 186, 0.798);
+ 
+ background-color: rgba(39, 56, 20, 0.767);
+ background-size: 20px;
+font-family: monospace;
+}
+.T{
+ margin-left: 12%;
+ margin-right:12% ;
+ padding-right:1% ;
+ 
+}
+.sora{
+  padding:  20px 40px;
+  margin-top: 40px;
+  margin-left: 400px;
+  width: 30%;
+  background-color: rgba(39, 56, 20, 0.767);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.klam{
+  text-align: center;
+  color: rgba(201, 235, 186, 0.798);
+ 
+ background-color: rgba(39, 56, 20, 0.767);
+ background-size: 20px;
+font-family: monospace;
+}
+.klam{
+  margin-left: 12%;
+  margin-right: 12%;
+ padding-right:0% ;
+}
+.teamimg{
+  padding:  20px 40px;
+  margin-top: 40px;
+  margin-left: 470px;
+  width: 20%;
+  background-color: rgba(39, 56, 20, 0.767);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.team{
+  text-align: center;
+  color: rgba(201, 235, 186, 0.798);
+ 
+ background-color: rgba(39, 56, 20, 0.767);
+ background-size: 20px;
+font-family: monospace;
+
+}
+.team{
+ margin-left: 12%;
+  margin-right: 12%;
+}
+.preimg{
+  padding:  20px 40px;
+  margin-top: 40px;
+  margin-left: 380px;
+  width: 35%;
+  background-color: rgba(39, 56, 20, 0.767);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pre{
+  text-align: center;
+  color: rgba(201, 235, 186, 0.798);
+ 
+ background-color: rgba(39, 56, 20, 0.767);
+ background-size: 20px;
+font-family: monospace;
+}
+.pre{
+  margin-left: 12%;
+   margin-right: 12%;
+ }
+.reimg{
+  padding:  20px 40px;
+  margin-top: 40px;
+  margin-left: 385px;
+  width: 35%;
+  background-color: rgba(39, 56, 20, 0.767);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.re{
+  text-align: center;
+  color: rgba(201, 235, 186, 0.798);
+ 
+ background-color: rgba(39, 56, 20, 0.767);
+ background-size: 20px;
+font-family: monospace;
+}
+.re{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.super{
+  position: fixed;
+        bottom: 10px;
+        left: 1150px;
+        width: 200px;
+        height: 200px;
+}
+.star{
+  position: fixed;
+        bottom: 10px;
+        left: 10px;
+        width: 200px;
+        height: 200px;
+}
